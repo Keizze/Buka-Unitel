@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------------------------------*/
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+
+    .logo{
+        margin-left: 10%;
+        flex: 10%;
+    }
+
+    .menu{
+        margin-right: 10%;
+        flex: 60%;
+        text-align: right;
+        
+    }
+
+    .menu a{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+
+    .menu a:hover{
+        border-top: 5px solid rgb(252, 135, 1);
+    }
+
+        #botao{
+            background-color: rgb(15, 28, 104);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-left: 30px;
+            padding: 8px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+            #botao:hover{
+                background-color: rgb(252, 135, 1);
+            }
+
+/*...................HEADER....................*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 100px;
+}
+
+    .titulo-principal{
+        margin-left: 10%;
+        flex: 40%;
+    }
+
+        .titulo-principal h2{
+            color: rgb(252, 135, 1);
+        }
+
+        .titulo-principal h1{
+            font-size: 45px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(15, 28, 104);
+        }
+
+        .titulo-principal p{
+            margin-top: 10px; 
+            text-align: justify;
+        }
+
+        .btn-abaixo{
+            display: inline-block;
+            color: white;
+            background-color: rgb(15, 28, 104);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-decoration: none;
+        }
+
+            .btn-abaixo:hover{
+                background-color: rgb(252, 135, 1);
+            }
+
+
+.img-principal{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+    .img-principal img{
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.616);
+    }
